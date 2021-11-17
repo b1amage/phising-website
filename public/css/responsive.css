@@ -1,0 +1,410 @@
+/* Ipad pro */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide .l-1 {
+        display: flex;
+    }
+    .search-box{
+        margin-left: 10%;
+    }
+    .login{
+        margin-left: auto;
+    }
+    .log-in{
+        font-size: 10px;
+        margin-top: 2px;
+        line-height: auto;
+    }
+    .carts{
+        margin-left: -18px;
+    }
+    .nav{
+        width: 220%;
+    }
+    .content{
+        overflow-x: auto;
+    }
+    .icon-arrow-right{
+        display: none;
+    }
+    .trends__body::after{
+        right: -1px;
+    }
+    .download__qr{
+        width: 39%;
+        height: 100%;;
+    }
+    .app{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Tablet & Mobile */
+@media (max-width: 1023px){
+    .header{
+        height: 150px;
+    }
+    .logo__container{
+        display: flex;
+        flex-direction: initial;
+    }
+    .freeship-img{
+        position: absolute;
+        margin: 0;
+        height: 20px;
+        width: 120px;
+        top: 40px;
+    }
+    .logo-tiki{
+        position: absolute;
+        margin: 0;
+        left: 45%;
+        top: 28px;
+    }
+    .mobile__cart{
+        display: block;
+    }
+    .food-bar{
+        display: none;
+    }
+    .search-btn{
+        display: none;
+    }
+    .box{
+        border-radius: 15px;
+        padding-left: 40px;
+    }
+    .search__container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+    }
+    .input-box{
+        width: 100%;
+    }
+    .search-img{
+        display: block;
+    }
+    
+    .icon-arrow-right{
+        display: none;
+    }
+    .slider-show,
+    .slider-img{
+        width: 100%;
+        height: auto;
+    }
+    .icon-prev,
+    .icon-next{
+        width: 26px;
+        height: 52px;
+    }
+    .banner-show{
+        height: auto;
+        margin: 8px 0;
+    }
+    .produit-list,
+    .links-container,
+    .trademark-hot,
+    #trademark .discount,
+    .featured__body,
+    .trends__body,
+    .suggestion__header-items,
+    .content {
+        overflow-x: auto;
+    }
+    .produit-list::-webkit-scrollbar,
+    .links-container::-webkit-scrollbar,
+    .trademark-hot::-webkit-scrollbar,
+    #trademark .discount::-webkit-scrollbar,
+    .featured__body::-webkit-scrollbar,
+    .trends__body::-webkit-scrollbar,
+    .suggestion__header-items::-webkit-scrollbar,
+    .content::-webkit-scrollbar {
+        display: none;
+      }
+    .produit-trans{
+        width: 400%;
+    }
+    .produit-slide{
+        width: 25%;
+    }
+    .produit-img{
+        width: 100%;
+    }
+    .tiki-fast{
+        width: 80%;
+        height: auto;
+    }
+    .flash-deal, .deal{
+        height: auto;
+    }
+    .brand-container{
+        height: auto;
+    }
+    .produit-next{
+        display: none;
+    }
+    .trademark-hot .next,
+    .trademark-hot .prev,
+    .trademark-slider .trademark-dots,
+    .discount__icon--right {
+        display: none;
+    }
+    #trademark .discount{
+        padding: 0;
+    }
+    
+    .trends__icon{
+        display: none;
+    }
+    .trends__body::before,
+    .trends__body::after {
+        display: none;
+    }
+    .discount::after{
+        display: none;
+    }
+    .ads__img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .nav{
+        width: 340%;
+    }
+    .deals-price{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .deals-discount{
+        font-size: 10px;
+    }
+    .deal-qty span{
+        font-size: 10px;
+    }
+    .fire-icon{
+        width: 20px;
+    }
+    .links-container .item{
+        margin: 0 13px;
+    }
+    .featured__body-item span{
+        padding: 0;
+        font-size: 11px;
+        margin: 12px 0 6px;
+    }
+    .featured__body{
+        gap: 12px 34px;
+        padding: 0 8px;
+    }
+    .suggestion__tab{
+        padding: 0;
+        margin: 2px;
+    }
+    .suggestion__header-title{
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .suggestion__items{
+        width: calc(100%/3);
+    }
+    .footer__container{
+        height: 580px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .main {
+        overflow: hidden;
+    }
+    .header{
+        padding: 0 16px;
+    }
+    .stick-dots{
+        display: none;
+    }
+    .header-deal{
+        padding: 8px;
+        height: auto;
+    }
+    .box{
+        font-size: 11px;
+    }
+    .navigation{
+        height: 36px;
+    }
+    .nav{
+        width: 600%;
+        line-height: 36px;
+    }
+    .product{
+        font-size: 13px;
+    }
+    .price-shock{
+        width: 60px;
+    }
+    .today{
+        width: 75px;
+    }
+    .flash-icon{
+        width: 16px;
+    }
+    .timer,
+    .timer span {
+        font-size: 12px;
+    }
+    .deals-price{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .deals-discount{
+        font-size: 9px;
+    }
+    .deal-qty span{
+        font-size: 9px;
+    }
+    .fire-icon{
+        width: 20px;
+    }
+    .links-container .item span{
+        font-size: 12px;
+        width: 65px;
+    }
+    .links-container .item img{
+        width: 40px;
+    }
+    .links-container .item{
+        margin: 0 8px;
+    }
+    .genuine-title{
+        font-size: 16px;
+    }
+    .discount__img-container{
+        width: auto;
+        height: auto;
+    }
+    .discount__img{
+        width: 140px;
+        height: auto;
+    }
+    .featured__header{
+        font-size: 18px;
+    line-height: normal;
+    padding: 8px 12px;
+    }
+    .featured__body-item span{
+        padding: 0;
+        font-size: 11px;
+        margin: 12px 0 6px;
+    }
+    .featured__body{
+        margin-top: 6px;
+        gap: 12px 34px;
+        padding: 0 8px;
+    }
+    .trends__header{
+        padding: 8px 12px;
+    }
+    .trends__header-item{
+        font-size: 16px;
+    }
+    .trends__logo{
+        height: auto;
+        width: 18px;
+    }
+    .trends__more{
+        font-size: 12px;
+    }
+    .trends__box{
+        width: 204px;
+        height: 146px;
+    }
+    .trends__img-container,
+    .trends__img{
+        width: auto;
+        height: auto;
+    }
+    .trends__box .title{
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .trends__box .sub-title{
+        font-size: 10px;
+    }
+    .tt{
+        width: auto;
+        height: 100px;
+    }
+    .trends__container{
+        height: 240px;
+    }
+    .suggestion__header{
+        top: -40px;
+    }
+    .suggestion__header-title{
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+    .suggestion__tab{
+        margin: 0 2px;
+    }
+    .suggestion__tab-img{
+        width: 30px;
+        height: auto;
+    }
+    .suggestion__tab-text{
+        font-size: 8px;
+        line-height: 10px;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+    .suggestion__items{
+        width: 50%;
+    }
+    .ads__container{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .ads__container::-webkit-scrollbar {
+        display: none;
+    }
+    .pay{
+        width: 95%;
+    }
+    .footer__container{
+        padding: 16px 4px;
+        height: 460px;
+    }
+    .footer__title{
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 18px
+    }
+    .footer__links, .footer__links-title, .hot-line{
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 6px;
+    }
+    .app{
+        height: 9%;
+    }
+    .download__qr{
+        height: 21%;
+    }
+    .footer__address{
+        padding: 0 4px;
+    }
+    .none{
+        display: none;
+    }
+}
