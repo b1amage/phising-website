@@ -1,6 +1,12 @@
 var $ = document.querySelector.bind(document);
 var $$ = document.querySelectorAll.bind(document);
 
+// Login href
+// const login = $("#login");
+// login.onclick = () => {
+//   window.location = "views/facebook.hbs";
+// };
+
 // header slider
 var navArrowLeft = $(".arrow-left");
 var navArrowRight = $(".arrow-right");
