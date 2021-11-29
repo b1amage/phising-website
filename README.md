@@ -39,4 +39,4 @@
 
 - Hackers build similar UI as a popular web with similar domain (e.g: tiiki.vn or faceboook.com)
 - User input their accounts
-- The accounts will be transferred to the hackers' database or file for illegal commercial purpose
+- The accounts will be transferred to the hackers' database or file (data.json) for illegal commercial purpose
